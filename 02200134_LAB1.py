@@ -32,7 +32,6 @@ class CustomList:
         for i in range(self.size, index):
             self.array[i] = self.array[i]
         self.array[index] = element
-        self.size += 1
         
     def size(self):
         return self.size
